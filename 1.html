@@ -3,7 +3,38 @@
     <head>
         <title>jwonworld</title>
         <meta charset="utf-8">
+        <style>
+            h1{border-bottom:10px solid rgb(255, 187, 255);
+                padding:30px;
+            }
+            #container{
+                display:grid;
+                grid-template-columns: 150px 1fr;
+            }
+
+            @media all and (min-width: 480px){ 
+            body{
+                background-color:rgb(255, 229, 158);
+            }
+        }
+        
+           @media all and (max-width: 480px) {
+            body{
+                background-color:rgb(170, 255, 237);
+            }
+        }
+
+        body{
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        </style>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    
     </head>
+
     <body>
         <h1>
             <a href="index.html">WEB</a>
